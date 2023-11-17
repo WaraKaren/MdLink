@@ -16,5 +16,8 @@
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint ."
+  },
+  "dependencies": {
+    "marked-links": "^3.1.2"
   }
 }
