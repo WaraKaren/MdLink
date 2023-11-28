@@ -6,6 +6,6 @@ const { mdLinks } = require("./lib/funMdLinks.js");
 mdLinks("./README.md")
     .then((links) => {
         // si promesa se resuelve, se muestra la lista de enlaces
-        console.log(links);
+        //console.log(links);
     })
     .catch(console.error);
